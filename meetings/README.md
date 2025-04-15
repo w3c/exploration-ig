@@ -3,6 +3,14 @@
 * Teleconferences: monthly
 * Face-to-face: we will meet during the W3C's annual Technical Plenary week; additional face-to-face meetings may be scheduled by consent of the participants, usually no more than 3 per year.
 
+# Meeting Information
+
+* Agendas are proposed as [agenda issues](https://github.com/w3c/exploration-ig/labels/agenda).
+* See [Group calendar](https://www.w3.org/groups/ig/exploration/calendar/) for meeting agendas and logistics.
+
+
+
+
 # Communication
 
 Discussions for this Interest Group are conducted in public: the meeting minutes from teleconference and face-to-face meetings will be archived for public review, and technical discussions and issue tracking will be conducted in a manner that can be both read and written to by the general public. The meetings themselves are not open to public participation, however.
