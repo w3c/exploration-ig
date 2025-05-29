@@ -2,7 +2,7 @@
 
 Repository for the [Exploration Interest Group](https://www.w3.org/groups/ig/exploration/).
 
-The goal of this group is to provide a platform to help W3C (including the W3C team) investigating emerging technology trends, analyzing their impacts on the evolution of Web technologies, and proposing ways for W3C to collaborate shaping the trends for the benefit of the Web users. See also the [Group charter](https://www.w3.org/2025/04/exploration-ig-charter.html)
+The goal of this group is to provide a platform to help W3C (including the W3C team) investigate emerging technology trends, analyze their impacts on the evolution of Web technologies, and propose ways for W3C to collaborate on shaping trends for the benefit of web users. See also the [Group charter](https://www.w3.org/2025/04/exploration-ig-charter.html).
 
 ## Meetings
 
@@ -19,7 +19,6 @@ The Group uses [Slack #explorationig](https://w3ccommunity.slack.com/).
 ## Mailing list
 
 The Group uses [public-exploration-ig@w3.org](https://lists.w3.org/Archives/Public/public-exploration-ig/).
-
 
 ## Other
 
