@@ -6,7 +6,7 @@ The goal of this group is to provide a platform to help W3C (including the W3C t
 
 ## Meetings
 
-Agendas are proposed as [agenda issues](https://github.com/w3c/exploration-ig/labels/agenda).
+Agendas are proposed as [agenda issues](https://github.com/w3c/exploration-ig/labels/agenda). We will scribe in a Google Doc and export notes into a markdown file for archiving in our GitHub repository.
 
 ## Meeting Information
 
