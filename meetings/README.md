@@ -7,6 +7,7 @@
 
 * Agendas are proposed as [agenda issues](https://github.com/w3c/exploration-ig/labels/agenda).
 * See [Group calendar](https://www.w3.org/groups/ig/exploration/calendar/) for meeting agendas and logistics.
+* IRC: #exploration-ig on W3C’s IRC server.
 
 
 
@@ -17,7 +18,7 @@ Discussions for this Interest Group are conducted in public: the meeting minutes
 
 Information about the group (including details about deliverables, issues, actions, status, participants, and meetings) will be available from the Exploration Interest Group home page.
 
-Most Exploration Interest Group teleconferences will focus on discussion of particular specifications, and will be conducted on an as-needed basis.
+Most Exploration Interest Group teleconferences will focus on discussion of particular issues, and will be conducted on an as-needed basis.
 
 This group primarily conducts its work on GitHub issues. The public is invited to review, discuss and contribute to this work.
 
