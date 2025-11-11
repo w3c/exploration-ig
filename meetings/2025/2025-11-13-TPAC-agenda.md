@@ -1,7 +1,8 @@
-# Exploration IG Hybrid, TPAC 2025, 2025-11-13
+# Exploration IG Hybrid, TPAC 2025, 2025-11-14
 
 * Moderator: Heather Flanagan  
 * Scribe: 
+* IRC channel: #exploration-ig
 
 Call-in details: see [https://www.w3.org/groups/ig/exploration/calendar/](https://www.w3.org/groups/ig/exploration/calendar/)
 
