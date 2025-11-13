@@ -11,6 +11,6 @@ Charter: see [https://www.w3.org/2025/04/exploration-ig-charter.html](https://ww
 ## Agenda
 
 * Opening & round-table introduction
-* [Consider extending the web to include maps and location as 'native' content types](https://github.com/w3c/exploration-ig/issues/5) - Peter Rushforth
+* [Consider extending the web to include maps and location as 'native' content types](https://github.com/w3c/exploration-ig/issues/5)  [[slides](https://peter.rushforth.info/TPAC-2025/MapML/Proposal.html)] - Peter Rushforth
 * [IETF DISPATCH process](https://github.com/w3c/exploration-ig/blob/main/meetings/2025/W3C%20TPAC%202025.pdf) - Heather Flanagan
 * Open discussion
