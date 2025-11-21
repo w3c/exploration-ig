@@ -13,24 +13,24 @@ Charter: see [https://www.w3.org/2025/04/exploration-ig-charter.html](https://ww
 
 * Opening & round-table introduction  
 * [Consider extending the web to include maps and location as 'native' content types](https://github.com/w3c/exploration-ig/issues/5) \- Peter Rushforth  
-* [\[PROPOSAL\]Exploring a group of people having common interest about web content authenticity technology and its use cases \#11](https://github.com/w3c/exploration-ig/issues/11) \- Michiko Kuriyama   
+* [\[PROPOSAL\]Exploring a group of people having common interest about web content authenticity technology and its use cases \#11](https://github.com/w3c/exploration-ig/issues/11) \- Michiko Kuriyama Kuriyama   
 * [IETF DISPATCH process](https://github.com/w3c/exploration-ig/blob/main/meetings/2025/W3C%20TPAC%202025.pdf) \- Heather Flanagan  
 * Open discussion
 
 Present: 
 
 * Heather Flanagan (co-chair)  
-* Philippe Le Hégaret (W3C)  
+* Philippe Le Hégaret Le Hégaret Le Hégaret (W3C)  
 * Xueyuan Jia (staff contact)  
 * Tomoya ASAI (WebDINO)  
 * Kohei Watanabe (WebDINO)  
 * Satoru Takagi (KDDI)  
 * Wei Ding (Huawei)  
 * Peter Rushforth (Natural Resources Canada)  
-* Chris Wilson (Google)  
-* Michiko Kuriyama (OP)  
+* Chris Wilson Wilson (Google)  
+* Michiko Kuriyama (Originator Profile CIP)  
 * Jay Kishigami (WCAP)  
-* Shigeya Suzuki (Keio University, Originator Profile CIP)  
+* Shigeya Suzuki Suzuki (Keio University, Originator Profile CIP)  
 * Kazuhiro Hoya （Originator Profile CIP)  
 * 
 
@@ -38,118 +38,117 @@ Present:
 
 ### Opening & round-table introduction
 
-Heather: Welcome to the Exploration IG meeting. I’d first like to introduce this Interest Group.  
+Heather Flanagan: Welcome to the Exploration IG meeting. I’d first like to introduce this Interest Group.  
 I’m the co-Chair of the Exploration Interest Group.
 
 \[round-table introduction\]
 
-Heather: we have three items today.
+Heather Flanagan: we have three items today.
 
 ### [Consider extending the web to include maps and location as 'native' content types](https://github.com/w3c/exploration-ig/issues/5)
 
 Slides: [https://peter.rushforth.info/TPAC-2025/MapML/Proposal.html](https://peter.rushforth.info/TPAC-2025/MapML/Proposal.html)
 
-Peter: I'm Peter Rushforth, Maps for HTML CG co-chair. We have a small and dedicated group on the map. We have a proposal of the Map Markup Language (MapML). We are a W3C member, as well as the other presenter who will present a different proposal today.I want to bring this proposal to the consortium and the community. 
+Peter Rushforth: I'm Peter Rushforth, Maps for HTML CG co-chair. We have a small and dedicated group on the map. We have a proposal of the Map Markup Language (MapML). We are a W3C member, as well as the other presenter who will present a different proposal today. I want to bring this proposal to the consortium and the community. 
 
-This is short video presentation from Satoru Takagi:
+This is short video presentation from Satoru Takagi: @@
 
-Satoru Takagi: we began from maps inside the map, now we imagine the web as a map. We shared the same aspiration as Peter the idea of making the maps as first-class citizen of the web. Our vision differs scales. MapML aims to bring the maps into the web. It enables the map data and map services to be handled in a standardized way within individual web pages or websites. In contrast, the Hyper-Layering Architecture (HLA) aims to map the web itself. we envision the entire web as a single map: one web map. Where all information and services can be connected through the common context of space. This vision as explained earlier arises from a very real and urgent social need today. 
+Satoru Takagi: We began from maps inside the map, now we imagine the web as a map. Let's explore how the Web and Geo worlds can connect on a common ground from 'maps in the web' to 'the web as a map'. We shared the same aspiration as Peter the idea of making the maps as first-class citizen of the web. Our vision differs in scales. MapML aims to bring the maps into the web. It enables the map data and map services to be handled in a standardized way within individual web pages or websites. In contrast, the Hyper-Layering Architecture (HLA) aims to map the web itself. We envision the entire web as a single map: one web map, where all information and services can be connected through the common context of space. This vision arises from a very real and urgent social need today. 
 
-we want to try to tell ourselves with HLA 1.0, also known as SVG map, defining everything inside SVG. it was powerful but it became a closed system, unable to evolve with the web. 
+HLA 1.0, also known as SVG map, defines everything inside SVG. It was powerful but it became a closed system, unable to evolve with the web. It often starts with one open format and soon multiplies, and the maintenance burden grows beyond sustainability. 
 
-with HLA 2.0, we created layers as web apps, instead of forcing one universal format, each layer is now an independent web app, meaning it can use any data format or API internally. and still be easily combined and interoperable with others. the web should not decide anything, it should have accepted connecting everything. that's the foundation on which sustainable evolution can happen. the aspiration of making the maps first-class citizens of the web is something that Peter and I deeply share. However, there's a difference in the scale of our vision. HLA is not only about how to represent maps within HTML, it aims to understand and connect the entire web itself through the common context of maps. 
+With HLA 2.0, we created layers as web apps, instead of forcing one universal format, each layer is now an independent web app, meaning it can use any data format or API internally, and still be easily combined and interoperable with others. The web should not decide anything, it should have accepted connecting everything. That's the foundation on which sustainable evolution can happen. The aspiration of making the maps first-class citizens of the web is something that Peter and I deeply share.
 
-I'd like to invite everyone here to embrace the 'One Web Map' vision, where every resource can be linked and seen as one map. It's not about just a format or API, we are shaping the future of the web itself. both the MapML and HLA share similar same goal at the highly abstract level. we agree that the web needs a common Geospatial Canvas, a space for 2D geospatial content, whether that takes the form of the map, element or something new, is automatically a matter of HTML stakeholders of WAHTWG and the HTML WG. we need collaboration and gap analysis between the two models  
-... recognizing the distinctions and discussing them openly.
+However, there's a difference in the scale of our vision. HLA is not only about how to represent maps within HTML, it aims to understand and connect the entire web itself through the common context of maps. 
 
-Peter: I'd like to discuss the MapML proposal, the abstraction in common between MapML and HLA. The motivation behind this proposal is to enhance the accessibility and usability of maps on the web, creating simple maps is simple for HTML developers, making complex maps should be possible using standard tools, by making maps simple and accessible for developers, it encourages the better privacy through decentralization.  Centralized platforms dominate map publishing and track users.
+I'd like to invite everyone here to embrace the 'One Web Map' vision, where every resource can be linked and seen as one map. It's not about just a format or API, we are shaping the future of the web itself. Both the MapML and HLA share similar same goal at the highly abstract level. We agree that the web needs a common Geospatial Canvas, a space for 2D geospatial content, whether that takes the form of the map, element or something new, is automatically a matter of HTML stakeholders of WAHTWG and the HTML WG. We need collaboration and gap analysis between the two models, recognizing the distinctions and discussing them openly.
+
+Peter Rushforth: I'd like to discuss the MapML proposal, the abstraction in common between MapML and HLA. The motivation behind this proposal is to enhance the accessibility and usability of maps on the web. Creating simple maps is simple for HTML developers, making complex maps should be possible using standard tools. It encourages the better privacy through decentralization. 
 
 The problem is: there are a number of maps, a 2022 research showed that 16% of web pages loaded a JS mapping library. For context, the \<video\> element was measured on 4.1% of page loads at the time. Developers are forced to rely on complex, and in some cases inaccessible JS libraries, due to lack of standard support for maps and location. It means location is a fundamental primitive form of information on the web, akin to text, images, video and audio. Accordingly, maps should be prioritized for implementation by the web platform.
 
-Research from 2020 and 2022 shows that JavaScript maps often have poor and inconsistent accessibility, and a majority of developers lack the tools to create accessible maps. Privacy and surveillance: centralized platforms dominate map publishing and track users, standardizing HTML maps could enable private, decentralized alternatives. 
+Research from 2020 and 2022 shows that JavaScript maps often have poor and inconsistent accessibility, and a majority of developers lack the tools to create accessible maps. 
 
-Map interfaces vary widely across sites, standardizing an accessible map widget would establish a consistent baseline web experience. 
+Privacy and surveillance: centralized platforms dominate map publishing and track users, standardizing HTML maps could enable private, decentralized alternatives. Map interfaces vary widely across sites, standardizing an accessible map widget would establish a consistent baseline web experience. 
 
-The 2020 Maps workshop and the community co-chair led a research, and documentation of mapping use cases and requirements: [https://maps4html.org/HTML-Map-Element-UseCases-Requirements/](https://maps4html.org/HTML-Map-Element-UseCases-Requirements/)
-
-Use cases categorized by user persona: website visitor, content/map author, application developer. Capabilities identified in those use cases are categorized as requirement, enhancement, impractical or undecided.
-
-The requirements are part of our central hub for MapML in our developer documentation site. It has use cases and requirements section. The requirements section lists all the requirements that fulfill by the particular element.
+The 2020 Maps workshop and the community co-chair led a research, and documentation of mapping use cases and requirements: [https://maps4html.org/HTML-Map-Element-UseCases-Requirements/](https://maps4html.org/HTML-Map-Element-UseCases-Requirements/). Use cases categorized by user persona: website visitor, content/map author, application developer. Capabilities identified in those use cases are categorized as requirement, enhancement, impractical or undecided. The requirements are part of our central hub for MapML in our developer documentation site: [https://maps4html.org/web-map-doc/](https://maps4html.org/web-map-doc/). Its requirements section lists all the requirements that fulfill by the particular element.
 
 There is a specification, the MapML Polyfill was the subject of the collaborative research and development by the OGC and W3C community before the 2020 workshop, including the editors of the Web Map and @1 specifications. We have implemented various use cases and requirements, and test them. 
 
-The notion of geospatial canvas, called Tiled Coordinate Reference Systems, describes the content of format to change the state of the application. 
+The notion of geospatial canvas, called Tiled Coordinate Reference Systems, describes the content of format to change the state of the application, coupling between the client and server through a format specification. You can see two layers in the Viewer, represented in layer control, available to the map user that can be edited through the controls and related controls list attribute...
 
-You can see two layers in The Viewer: layers represented in layer control, available to the map user that can be edited through the controls and related controls list attribute…
+Heather Flanagan: We probably shouldn't get into too many technical details. My question is, what do you want to see happen next?
 
-Heather: We probably better not dive into too much tech details. I want to know what you want to see happen next? 
+Peter Rushforth: we are seeking feedback and collaboration from the W3C community, and especially the browser projects on the our proposal. We invite participation in the Maps for HTML Community Group to help refine and advance the proposal towards standardization. If possible, the Maps for HTML community would prefer to integrate the MapML and HLA 2.0 proposals into a single coherent proposal for standardization and implementation. Please provide your feedback and insights to help us move forward with a unified community-backed proposal.
 
-Peter: we are seeking feedback and collaboration from the W3C community, and especially the browser projects on the our proposal. We invite participation in the Maps for HTML Community Group to help refine and advance the proposal towards standardization. If possible, the Maps for HTML community would prefer to integrate the MapML and HLA 2.0 proposals into a single coherent proposal for standardization and implementation. Please provide your feedback and insights to help us move forward with a unified community-backed proposal.
+Heather Flanagan: The Maps for HTML Community Group can take this on. Once you have reached a consensus within the group, you can reach out to the W3C Team, and then move forward with a Working Group (WG), etc.
 
-Heather: The MapML community group can take it, and you can reach out to the Team when you have a consensus within the group, then move forward to the next with WG, etc.
+Philippe Le Hégaret: Did you get the TAG review on this proposal? I’d highly encourage you to get a TAG review first if you haven’t. 
 
-PLH: Did you get the TAG review on this proposal? I’d highly encourage you to get a TAG review first if you haven’t. 
+Peter Rushforth: Not yet. 
 
-Peter: Not yet. 
-
-Heather: Other comments? Hearing none. 
+Heather Flanagan: Other comments? Hearing none. 
 
 ### Exploring a group of people having common interest about web content authenticity technology and its use cases
 
-Michiko: Originator Profile, a technology verifies the existence of content originators and content itself that has not been tampered with, would like to explore the opportunities of how to enhance the reliability of web content with potential collaboration with this technology.
+Michiko Kuriyama: Originator Profile (OP), a technology verifies the existence of content originators and content itself that has not been tampered with, would like to explore the opportunities of how to enhance the reliability of web content with potential collaboration with this technology.
+
+For users, not only will it be easier to verify the originator/publisher of content, but it will also be easier to identify dis/misinformation, as they can be sure that the information has not been tampered with.
 
 \[video\] @@
 
-shigeya: our use cases primarily focus on news media and digital advertisement. We are trying to provide some kind of validated information, source @@. 
+Shigeya Suzuki: The OP technology is likely to be used for news from media organizations, advertisements by companies, and information from government agencies, etc. It provides users with two key verifications: The content's source is authentic and unaltered; The originator/publisher has systems to ensure reliability and responsibility in distributing information. OP certifies that the content was published by a responsible company or other entity.
 
-.. verify the source of the information, to improve the situation in the media of false information. Regarding that context, we are seeking cooperation with C2PA. We are collaborating with other bodies on this matter. 
+OP has already been gaining adoption to the media ecosystem. However, we believe that it will be effective for gaining more to work with content provenance verification technology like C2PA. We hope to look for the opportunity of potential collaborations with that kind of technology.
 
-Heather: What do you look for?
+Heather Flanagan: What do you look for?
 
-shigeya: we like to start conversions in @@group. We also consider establishing a community group.
+Shigeya Suzuki: we like to start conversions with other W3C Groups. We also consider establishing a Community Group (CG).
 
-PLH: Yes, creating a CG and inviting interested people, getting C2PA’s support on that CG, and maintaining the conversation continuously would be a good approach. 
+Philippe Le Hégaret: Yes, creating a Community Group (CG) to engage interested parties, gaining C2PA's support, and sustaining the conversation is a solid approach.
 
-Heather: How to create the CG?  
-Philippe: see [https://www.w3.org/community/about/faq/\#how-do-i-propose-a-group](https://www.w3.org/community/about/faq/#how-do-i-propose-a-group) 
+Heather Flanagan: How to create the CG?  
+Philippe Le Hégaret: see [https://www.w3.org/community/about/faq/\#how-do-i-propose-a-group](https://www.w3.org/community/about/faq/#how-do-i-propose-a-group) 
 
 ### [IETF DISPATCH process](https://github.com/w3c/exploration-ig/blob/main/meetings/2025/W3C%20TPAC%202025.pdf) 
 
-Heather: at the Exploration IG, we are looking for develop strategic narratives to help the W3C community understand these trends, the relevance of W3C activities, or a gap analysis where there are no current W3C activities; providing a forum for members of the W3C community. 
+Slides: [https://github.com/w3c/exploration-ig/blob/main/meetings/2025/W3C%20TPAC%202025.pdf](https://github.com/w3c/exploration-ig/blob/main/meetings/2025/W3C%20TPAC%202025.pdf)
 
-About IETF ART DISPATCH is chartered to bring on new work in the ART area and provide a conduit for new drafts, ideas and potential WGs. It’s well-understood in the IETF community, well-attended (e.g., 100-200 in the meeting room), their works well-documented on their wiki.
+Heather Flanagan: At the Exploration IG, we monitor industry and technology trend and analyze their potential impact on the web. Based on these findings, we develop strategic narratives to help the W3C community understand these trends, the relevance of W3C activities, or a gap analysis where there are no current W3C activities. The IG provides a forum for members of the W3C community to share updates as part of broader strategic discussions, and to seek in-depth strategic input. 
 
-The ART DISPATCH focuses on directing the work to an existing WG, proposing new groups, recommending to hold BOF, publishing as AD-sponsored which you can get document published with editor’s support, recommending additional discussion or community development, finding the work inappropriate for IETF. 
+About IETF ART DISPATCH: The DISPATCH WG is chartered to bring on new work in the ART area and provide a conduit for new drafts, ideas and potential WGs. It's like a matchmaker between keen engineers and IETF processes/groups/procedures. It’s well-understood in the IETF community, well-attended (e.g., 100-200 in the meeting room). and their work is well-documented on their wiki.
 
-Our Exploration starts to fill a similar role to them. W3C is not the IETF, the Exploration IG is not well-know in W3C and people might not know they can bring discussion to us. It’s unclear to people about how it differs from the WICG. 
+The ART DISPATCH focuses on directing the work to an existing WG, proposing new groups, recommending to hold a BOF, publishing as AD-sponsored which you can get document published with editor’s support, recommending additional discussion or community development, finding the work inappropriate for IETF. 
 
-Disposition options of the Exploration IG: direct the work to an existing WG; propose a new WG, a WICG project. Any other possibilities of options? 
+Our Exploration starts to fill a similar role to them. However, W3C is not the IETF and the possible solutions are not the same. The Exploration IG is not well-know in W3C and people might not know they can bring discussions to us. It’s unclear to people about how it differs from the WICG. 
 
-PLH: For instance, you could also say the Exploration can direct people to workshop, task force, member submission, suggest people with proposals get W3C review, e.g., asking the HTML map proposal to go to TAG review. We can also rename ourselves into the DISPATCH group. 
+The disposition options for the Exploration IG include: directing the work to an existing WG, proposing a new WG/CG or a WICG project. Are there any other potential options to consider?
 
-Shigeya: I noticed that our meetings later during the week have less attendees compared to Monday, as people are leaving on Friday. 
+Philippe Le Hégaret: For instance, the Exploration IG could also direct proposals to a workshop, task force, or member submission. It could also suggest that proposal owners seek W3C review; for example, by asking the HTML Map proposal to undergo a TAG review. Additionally, we can also rename ourselves into the DISPATCH group. 
 
-Chris Wilson: when the AB talked about the Exploration IG, we expected the group to explore the new tech topics for W3C. We have this landscape for topics (AI, MapML, etc) and get people’s attention. 
+Shigeya Suzuki: I observed that meeting attendance tends to be lower later in the week compared to Monday. Proactive measures might be needed to increase the group's visibility and participation.
 
-Shigeya: I always spot new topics during TPAC, maybe we can leverage it. 
+Chris Wilson Wilson: The AB expects the Exploration IG to explore new technological topics for W3C, providing a landscape overview for various areas like AI and MapML and attracting community attention.
 
-Jay: The process is important, I’d like to see flexibility for people to bring ideas for exploration, even though only small results could come out eventually. 
+Shigeya Suzuki: I consistently identify new topics during TPAC. Perhaps we can leverage this opportunity more systematically to inform the group's exploration work.
 
-Wei Ding: The key difference between the WICG and the Exploration IG is that the WICG focuses on incubating specific, well-defined ideas, whereas the Exploration IG serves as a forum for early-stage, uncertain proposals. Open the Exploration IG more broadly, for example, set up a dedicated meeting at TPAC and open to all attendees. 
+Jay: I think the process matters. I'd like to see flexibility for people to bring in ideas for exploration, even if only small results eventually come out of them.
 
-PLH: The W3C public mailing list \<[https://lists.w3.org/Archives/Public/public-new-work/](https://lists.w3.org/Archives/Public/public-new-work/)\> and the [TAG review list](https://github.com/w3ctag/design-reviews/issues) could be good places for the group to look into new ideas. In IETF, do people have to go through DISPATCH first when they have ideas?
+Wei Ding: The key difference between the WICG and the Exploration IG is that the WICG focuses on incubating specific, well-defined ideas, whereas the Exploration IG serves as a forum for early-stage and uncertain proposals. To broaden its reach, the Exploration IG could be opened more widely—for example, by organizing a dedicated meeting at TPAC that is open to all attendees.
 
-Heather: No. 
+Philippe Le Hégaret: The W3C public mailing list \<[https://lists.w3.org/Archives/Public/public-new-work/](https://lists.w3.org/Archives/Public/public-new-work/)\> and the [TAG review list](https://github.com/w3ctag/design-reviews/issues) could be good places for the group to look into new ideas. In IETF, do people have to go through DISPATCH first when they have ideas?
 
-Chris: In IETF, there are multiple levels of directing proposals to groups  @@
+Heather Flanagan: No. 
 
-Heather: there are some people with proposals without knowing where to go (e.g., the credential issue that the group received) and we direct them to the right groups, the Crendential CG. 
+Chris Wilson: In IETF, there are multiple levels of directing proposals to groups @@
 
-Chris: The problem is how to get correct people to show up and work together at one point when we are in early discussion. The group probably needs W3C Working Group chairs to participate. And we couldn’t get them for a chairs breakfast at TPAC.
+Heather Flanagan: There were cases where individuals had proposals but didn't know where to submit them—for example, the credential issue that this group received. In such situations, we directed them to the appropriate group, which was the Credentials CG.
+
+Chris Wilson: The core challenge is engaging the right participants to collaborate during early-stage discussions. The group would benefit from the participation of W3C Working Group chairs. And we couldn’t get them for a chairs breakfast at TPAC.
 
 Carine: regarding the strategy about group chairs participation @@
 
-Heather: the Exploration IG is currently chartered for 2 years, still an experiment. We might want to discuss about what the strategy needs to be like. 
+Heather Flanagan: The Exploration IG is currently chartered for 2 years, so it's still an experiment. We might want to discuss about what the strategy needs to be like. 
 
-Wei Ding: we should also further promote this IG, and possibly engage with the strategy team, or get a dispatch. 
+Wei Ding: we should also further promote this IG, and possibly engage with the Strategy team, or get a DISPATCH. 
 
