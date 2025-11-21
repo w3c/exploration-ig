@@ -51,7 +51,7 @@ Slides: [https://peter.rushforth.info/TPAC-2025/MapML/Proposal.html](https://pet
 
 Peter Rushforth: I'm Peter Rushforth, Maps for HTML CG co-chair. We have a small and dedicated group on the map. We have a proposal of the Map Markup Language (MapML). We are a W3C member, as well as the other presenter who will present a different proposal today. I want to bring this proposal to the consortium and the community. 
 
-This is short video presentation from Satoru Takagi: @@
+This is short video presentation from Satoru Takagi: [https://svgmap.org/movie/TPAC2025/index_HLA_breakout.html](https://svgmap.org/movie/TPAC2025/index_HLA_breakout.html)
 
 Satoru Takagi: We began from maps inside the map, now we imagine the web as a map. Let's explore how the Web and Geo worlds can connect on a common ground from 'maps in the web' to 'the web as a map'. We shared the same aspiration as Peter the idea of making the maps as first-class citizen of the web. Our vision differs in scales. MapML aims to bring the maps into the web. It enables the map data and map services to be handled in a standardized way within individual web pages or websites. In contrast, the Hyper-Layering Architecture (HLA) aims to map the web itself. We envision the entire web as a single map: one web map, where all information and services can be connected through the common context of space. This vision arises from a very real and urgent social need today. 
 
