@@ -30,7 +30,7 @@ Present:
 * Chris Wilson Wilson (Google)  
 * Michiko Kuriyama (Originator Profile CIP)  
 * Jay Kishigami (WCAP)  
-* Shigeya Suzuki Suzuki (Keio University, Originator Profile CIP)  
+* Shigeya Suzuki (Keio University, Originator Profile CIP)  
 * Kazuhiro Hoya （Originator Profile CIP)  
 * 
 
